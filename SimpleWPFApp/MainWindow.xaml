@@ -1,0 +1,34 @@
+﻿<Window x:Class="SimpleWPFApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleWPFApp"
+        mc:Ignorable="d"
+        Title="Auto UI Testing Exercise - Richard Sims - 9633324" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="50" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="50" />
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+
+        <Button x:Name="buttonA" Grid.Column="2" Grid.Row="2" Content="Start" FontSize="20" Click="Button1_Click" />
+        <ProgressBar x:Name="progressBar1" Grid.Column="2" Grid.Row="4" BorderThickness="4" VerticalAlignment="Center" MinHeight="30" Maximum="10000" />
+        <CheckBox x:Name="checkBox1" Grid.Column="2" Grid.Row="6" Content="Checkbox" FontSize="20" BorderThickness="4" VerticalAlignment="Center" VerticalContentAlignment="Center" IsEnabled="False"/>
+    </Grid>
+</Window>

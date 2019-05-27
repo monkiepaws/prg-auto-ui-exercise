@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleWPFApp", "SimpleWPFApp\SimpleWPFApp.csproj", "{A31822B7-07DE-42B5-931A-778A96C2287C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodedUITestProject1", "CodedUITestProject1\CodedUITestProject1.csproj", "{9441DF79-6F36-40A6-AD9D-97E2B505A24C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A31822B7-07DE-42B5-931A-778A96C2287C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31822B7-07DE-42B5-931A-778A96C2287C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31822B7-07DE-42B5-931A-778A96C2287C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31822B7-07DE-42B5-931A-778A96C2287C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9441DF79-6F36-40A6-AD9D-97E2B505A24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9441DF79-6F36-40A6-AD9D-97E2B505A24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9441DF79-6F36-40A6-AD9D-97E2B505A24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9441DF79-6F36-40A6-AD9D-97E2B505A24C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {536ECC3B-69A8-4F48-A303-7A93099D3030}
+	EndGlobalSection
+EndGlobal
